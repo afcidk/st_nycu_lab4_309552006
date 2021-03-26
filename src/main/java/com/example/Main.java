@@ -1,3 +1,5 @@
+package com.example;
+
 import java.util.Scanner;
 
 class Main {
@@ -12,5 +14,7 @@ class Main {
         System.out.println("Enter Player 2 choice (rock, paper or scissors):");
         String c2 = sc.nextLine();
         Game.checkValid(c2);
+
+        Game.runGame(c1, c2);
     }
 }

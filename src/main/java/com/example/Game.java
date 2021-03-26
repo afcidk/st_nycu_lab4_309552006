@@ -1,3 +1,5 @@
+package com.example;
+
 import java.util.Scanner;
 
 public class Game {
@@ -14,7 +16,7 @@ public class Game {
         else if (c1.equals("scissors") && c2.equals("scissors")) win=0;
 
         if (win != 0) System.out.printf("Player %d win!\r\n", win);
-        else System.out.println("Draw!");
+        else System.out.printf("Draw!\r\n");
     }
 
     public static void checkValid(String s) {
